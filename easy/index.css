@@ -1,0 +1,46 @@
+.tabs__content {
+  display: none; /* по умолчанию прячем все блоки */
+  width: 600px;
+  margin: 0 auto;
+}
+ul {
+	margin: 10px auto;
+	width: 670px;
+}
+.tabs__content.active {
+  display: block; /* по умолчанию показываем нужный блок */
+}
+body {
+	background: url(img/bg.png);
+}
+.tabs {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	display: inline-block;
+}
+li a {
+	display: block;
+	margin-right: 10px;
+	background: #20232A;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+	width: 200px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+li a:hover {
+	background: #20233A;
+}
+li a:active {
+	background: #20231A;
+}
+img {
+	height: 400px;
+}
